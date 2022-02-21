@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue'), url('../fontes/HelveticaNeueLTStd Lt.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Neo Sans Std Medium TR';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Neo Sans Std Medium TR'), url('../fontes/Neo Sans Std Medium TR.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Neo Sans Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Neo Sans Light'), url('../fontes/neo-sans-light.woff') format('woff');
+}
+
+* {
+    color: #FFF;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+    font-family: Neo Sans Std Medium TR;
+    font-weight: normal;
+}
+
+body {
+    background: #0c0d29;
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    width: 261px;
+    height: 86px;
+    background: url(../img/logo.png);
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#conteudo {
+    width: 623px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#conteudo p {
+    font-size: 14px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+}
+
+#conteudo form {
+    width: 623px;
+    margin: 0 auto;
+}
+
+#conteudo input::-webkit-input-placeholder {
+    color: rgba(225, 225, 225, 0.6);
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+}
+
+#conteudo input:focus::-webkit-input-placeholder {
+    color: rgba(225, 225, 225, 0.8);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+#conteudo input[type=text] {
+    width: 290px;
+    height: 20px;
+    background: rgba(12, 13, 14, 0.8);
+    border: 1px solid rgba(225, 225, 225, 0.4);
+    border-radius: 5px;
+    outline: none;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#conteudo input[type=submit] {
+    width: 80px;
+    height: 30px;
+    background-image: linear-gradient( to top, #9dc738 50%, #a7cd4c 50%);
+    border: 1px solid #739328;
+    border-radius: 4px;
+    border-bottom: 3px solid #739328;
+    margin-right: 6px;
+    margin-top: 2px;
+    color: #59721F;
+    text-shadow: 1px 1px #CAE195;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#conteudo input[type=submit]:active {
+    color: #455818;
+    text-shadow: 1px 1px #CAE195;
+    margin-top: 3px;
+}
+
+#aceito {
+    margin-left: 10px;
+    float: left;
+}
+
+textarea {
+    width: 600px;
+    height: 100px;
+    background: rgba(12, 13, 14, 0.8);
+    border: 1px solid rgba(225, 225, 225, 0.4);
+    border-radius: 5px;
+    outline: none;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+textarea::-webkit-input-placeholder {
+    color: rgba(225, 225, 225, 0.6);
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+    transition: 0.3s;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    color: rgba(225, 225, 225, 0.7);
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+    transition: 0.3s;
+}
+
+label {
+    font-size: 12px;
+    margin-top: 2.5px;
+    margin-left: 2px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+    float: left;
+}
+
+#texto-2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
